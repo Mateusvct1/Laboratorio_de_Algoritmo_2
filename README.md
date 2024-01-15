@@ -2,9 +2,10 @@
 
 Alguns exercicios praticados dentro e fora de aulas, como também alguns comandos de GDB.
 
-1. UNIDADE:
+## 1ª UNIDADE:
 
-    *   Preparação de ambiente;
+
+1.   Preparação de ambiente;
 
         *   Lista de exercicios
 
