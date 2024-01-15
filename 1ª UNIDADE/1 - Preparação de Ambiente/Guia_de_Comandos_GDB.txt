@@ -43,4 +43,6 @@ Suponha que você tenha uma variável chamada contador que controla a iteração
 Exemplo:
 Suponha que você tenha um programa que está causando um comportamento inesperado e suspeita que uma variável chamada flag esteja sendo alterada de forma incorreta. Você pode definir um watchpoint usando o comando watch flag para que o GDB interrompa a execução sempre que o valor de flag mudar, permitindo que você investigue a causa da mudança indesejada.
 
+Esse guia foi disponibilizado pelo professor: KENNEDY REURISON 
+
 Em resumo, a principal diferença entre display e watchpoints é que display é usado para exibir automaticamente valores de variáveis em cada parada ou passo, enquanto watchpoints é usado para interromper a execução do programa quando o valor de uma variável específica muda. Ambos os recursos são valiosos na depuração de programas complexos e podem ajudar a encontrar problemas e entender melhor o comportamento do código durante a execução.
