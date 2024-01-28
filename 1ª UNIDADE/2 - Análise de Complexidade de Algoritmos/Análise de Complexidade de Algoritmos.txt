@@ -1,0 +1,8 @@
+1. Implente o codigo base.
+
+2. Programar o algoritmo para teste
+
+3. Calcular a media (algoritmo)
+
+4. Estimar a complexidade
+https://cplusplus.com/reference/ctime/clock/
