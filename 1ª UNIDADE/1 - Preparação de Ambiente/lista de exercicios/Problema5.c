@@ -9,27 +9,27 @@ Escreva um programa que imprima a soma, a soma dos quadrados e a soma dos cubos 
 int main(){
 
     int n,i;
-    double soma = 0,somaQuadrado = 0,somaCubo=0;
+    int soma = 0,somaQuadrado = 0,somaCubo=0;
 
     printf("digite o total de numero: ");
     scanf("%d",&n);
 
     for (i=1;i<=n;i++){
         soma += i;
-        double numero = pow(i,2);
+        int numero = pow(i,2);
         somaQuadrado += numero;
-        printf("\n%d ^ 2 = %.1lf",i,numero );
+        printf("\n%d ^ 2 = %d",i,numero );
     }
     printf("\n***************************\n");
     for (i = 1; i <= n; i++)
     {
-        double cubo = pow (i,3);
+        int cubo = pow (i,3);
         somaCubo += cubo;
-        printf("\n%d ^ 3 = %.1lf",i,cubo );
+        printf("%d ^ 3 = %d\n",i,cubo );
     }
-    printf("\nA soma desses %d numeros = %.1lf \n",n,soma);
-    printf("\nO quadrado desses %d numeros = %.1lf \n",n,somaQuadrado);
-    printf("O cubo desses %d numeros = %.1lf \n",n,somaCubo);
+    printf("A soma desses %d numeros = %d \n",n,soma);
+    printf("O quadrado desses %d numeros = %d \n",n,somaQuadrado);
+    printf("O cubo desses %d numeros = %d \n",n,somaCubo);
 
     return 0;
 }
