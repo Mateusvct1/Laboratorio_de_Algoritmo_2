@@ -1,23 +1,23 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-// struct No
-// {
-//     int info;
-//     struct No *esq;
-//     struct No *dir;
-// };
+struct No
+{
+    int info;
+    struct No *esq;
+    struct No *dir;
+};
 
-// int main(){
-//     struct No *raiz = (struct No *)malloc(sizeof(struct No));
-//     raiz->info = 10;
-//     raiz->esq = NULL;
+int main(){
+    struct No *raiz = (struct No *)malloc(sizeof(struct No));
+    raiz->info = 10;
+    raiz->esq = NULL;
     
-//     raiz->dir = (struct No *)malloc(sizeof(struct No));
-//     raiz->dir->info = 20;
-//     raiz->dir->esq = NULL;
-//     raiz->dir->dir = NULL;
-// }
+    raiz->dir = (struct No *)malloc(sizeof(struct No));
+    raiz->dir->info = 20;
+    raiz->dir->esq = NULL;
+    raiz->dir->dir = NULL;
+}
 
 
 #include <stdio.h>

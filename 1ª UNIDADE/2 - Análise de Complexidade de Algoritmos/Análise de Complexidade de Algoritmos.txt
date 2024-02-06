@@ -6,3 +6,15 @@
 
 4. Estimar a complexidade
 https://cplusplus.com/reference/ctime/clock/
+
+
+Atualizar a info
+
+inserir elementos
+
+buscar menor elemento
+
+remover elemento
+
+depurar tudo
+
