@@ -2,8 +2,8 @@
 # Edit at https://www.toptal.com/developers/gitignore?templates=c
 
 ### pastas ###
-.Laboratorio/
-.output/
+Laboratorio/
+output/
 ### C ###
 .vscode/
 # Prerequisites
