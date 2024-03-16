@@ -41,3 +41,7 @@ Alguns exercicios praticados dentro e fora de aulas, como também alguns comando
 
 
 ##### Obs: revisar as questões de 8 até a 26
+
+##  2ª UNIDADE
+
+*  Projeto de lista de contatos
