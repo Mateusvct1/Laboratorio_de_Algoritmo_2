@@ -1,0 +1,30 @@
+void lerContatos(TabelaHash *tabelahash) {
+    FILE *file = fopen("todosOsContatos.txt", "r");
+    if (file == NULL) {
+        printf("Erro: Não foi possível abrir o arquivo\n");
+        return;
+    }
+
+    char Nome[50], telefone[20];
+
+    while (fscanf(file, "%s %s", Nome, telefone) != EOF) {
+        inserir(tabelahash, Nome, telefone);
+    }
+
+    fclose(file);
+}
+
+
+int main() {
+    TabelaHash tabelahash;
+
+    // Inicializa a tabela hash
+    for (int i = 0; i < HASH_SIZE; i++)
+        tabelahash.tabela[i] = NULL;
+
+    // Lê os contatos do arquivo e insere na tabela hash
+    lerContatos(&tabelahash);
+
+    // ... restante do código ...
+    
+}
