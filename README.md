@@ -40,8 +40,6 @@ Alguns exercicios praticados dentro e fora de aulas, como também alguns comando
         *   [helloWorld.c](https://github.com/Mateusvct1/Laboratorio_de_Algoritmo/blob/main/1%C2%AA%20UNIDADE/1%20-%20Prepara%C3%A7%C3%A3o%20de%20Ambiente/helloWorld.c) 
 
 
-##### Obs: revisar as questões de 8 até a 26
-
 ##  2ª UNIDADE
 
 *  Projeto de lista de contatos
